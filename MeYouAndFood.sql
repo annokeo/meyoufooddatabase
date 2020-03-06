@@ -21,6 +21,9 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
+CREATE DATABASE MeYouFood;
+
+USE MeYouFood;
 
 --
 -- Table structure for table `Dairy`
