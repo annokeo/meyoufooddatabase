@@ -1,0 +1,6 @@
+1. SELECT Ingredients.IngredientID, Measurements.MeasurementID FROM (Ingredients INNER JOIN Measurements ON Ingredients.MeasurementID = Measurements.MeasurementID)
+
+2. SELECT Ingredients.IngredientID, Meat.MeatDescription, Grain.GrainDescription, Dairy.DairyDescription, Veggies.VeggieDescription FROM ((((Ingredients INNER JOIN Meat ON Ingredients.MeatID = Meat.MeatID) INNER JOIN Grain ON Ingredients.GrainID = Grain.GrainID) INNER JOIN Dairy ON Ingredients.DairyID = Dairy.DairyID) INNER JOIN Veggies ON Ingredients.VeggieID = Veggies.VeggieID)
+
+3. SELECT Track.TrackID, Users.FirstName, Users.LastName FROM (Track INNER JOIN Users ON Track.UserID = Users.UserID)
+
